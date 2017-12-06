@@ -1,9 +1,11 @@
 package com.github.fcud0542515;
 
-public class Triangle {
+import java.util.Arrays;
+
+public class newclass {
     private final double[] e;
 
-    public Triangle(double a, double b, double c) {
+    public newclass(double a, double b, double c) {
         this.e = new double[]{a, b, c};
         Arrays.sort(this.e);
     }
@@ -20,3 +22,4 @@ public class Triangle {
         }
         return "鈍角三角形";
     }
+}
